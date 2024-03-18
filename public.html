@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar Aplicativo</title>
+</head>
+<body>
+    <h1>Publicar Novo Aplicativo</h1>
+    <form id="app-form">
+        <label for="appName">Nome do Aplicativo:</label>
+        <input type="text" id="appName" name="appName"><br><br>
+
+        <label for="appDeveloper">Nome do Desenvolvedor:</label>
+        <input type="text" id="appDeveloper" name="appDeveloper"><br><br>
+
+        <label for="appDescription">Descrição do Aplicativo:</label><br>
+        <textarea id="appDescription" name="appDescription"></textarea><br><br>
+
+        <label for="appIcon">Ícone do Aplicativo:</label>
+        <input type="file" id="appIcon" name="appIcon"><br><br>
+
+        <label for="appFile">Arquivo APK:</label>
+        <input type="file" id="appFile" name="appFile"><br><br>
+
+        <button type="submit">Publicar</button>
+    </form>
+
+    <button id="installButton" style="display: none;">Instalar Aplicativo</button>
+
+    <script src="public.js"></script>
+</body>
+</html>
